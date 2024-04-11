@@ -100,3 +100,16 @@ int main()
          << "Chemistry";
     cout << " "
          << "Total\n";
+
+  // Display details of Students
+    for (int i = 0; i < n; i++) {
+        cout << a[i].rank << "    ";
+        cout << a[i].name << "      ";
+        cout << a[i].math << "     " << a[i].phy << "     "
+             << a[i].che << "       ";
+        cout << a[i].total << " ";
+        cout << "\n";
+    }
+ 
+    return 0;
+}
