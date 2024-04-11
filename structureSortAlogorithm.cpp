@@ -31,3 +31,19 @@ bool compareTwoStudents(Student a, Student b)
  
     return (a.che > b.che);
 }
+
+// Fills total marks and ranks of all Students
+void computeRanks(Student a[], int n)
+{
+    // To calculate total marks for all Students
+    for (int i = 0; i < n; i++)
+        a[i].total = a[i].math + a[i].phy + a[i].che;
+ 
+    // Sort structure array using user defined
+    // function compareTwoStudents()
+    sort(a, a + n, compareTwoStudents);
+ 
+    // Assigning ranks after sorting
+    for (int i = 0; i < n; i++)
+        a[i].rank = i + 1;
+}
