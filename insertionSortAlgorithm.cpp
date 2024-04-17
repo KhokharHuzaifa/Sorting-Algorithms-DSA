@@ -1,4 +1,4 @@
-// C++ program for insertion s
+// C++ program for insertion so
 
 #include <iostream>
 using namespace std;
