@@ -1,4 +1,4 @@
-// C++ program for insertion sor
+// C++ program for insertion sort
 
 #include <iostream>
 using namespace std;
