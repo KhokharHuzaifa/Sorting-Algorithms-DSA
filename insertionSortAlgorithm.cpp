@@ -1,4 +1,4 @@
-// C++ program for insertion so
+// C++ program for insertion sor
 
 #include <iostream>
 using namespace std;
